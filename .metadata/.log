@@ -1,0 +1,124 @@
+!SESSION 2022-10-30 23:54:45.246 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\박소현\git\dy_class_2 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-10-30 23:54:47.980
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-30 23:54:47.980
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@182469d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62aefc75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-10-30 23:54:52.634
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-10-30 23:54:52.636
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-10-30 23:54:52.699
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\박소현'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-30 23:54:52.724
+!MESSAGE An internal error occurred during: "AutoRegisterSchemeHandlersJob".
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Users\박소현\AppData\Local\Temp\jna--2033671817\jna6387080960883243576.dll: Can't find dependent libraries
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:383)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:227)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:169)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2383)
+	at java.base/java.lang.Runtime.load0(Runtime.java:746)
+	at java.base/java.lang.System.load(System.java:1857)
+	at com.sun.jna.Native.loadNativeDispatchLibraryFromClasspath(Native.java:1019)
+	at com.sun.jna.Native.loadNativeDispatchLibrary(Native.java:989)
+	at com.sun.jna.Native.<clinit>(Native.java:195)
+	at com.sun.jna.platform.win32.WinReg$HKEYByReference.<init>(WinReg.java:52)
+	at com.sun.jna.platform.win32.WinReg$HKEYByReference.<init>(WinReg.java:48)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:736)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:717)
+	at org.eclipse.urischeme.internal.registration.WinRegistry.getValueForKey(WinRegistry.java:44)
+	at org.eclipse.urischeme.internal.registration.RegistryWriter.getRegisteredHandlerPath(RegistryWriter.java:80)
+	at org.eclipse.urischeme.internal.registration.RegistrationWindows.getSchemesInformation(RegistrationWindows.java:89)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-10-30 23:55:25.308 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-10-30 23:55:27.937
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-30 23:55:27.937
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5cd2adc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3df4cd96,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-10-30 23:55:31.417
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\박소현'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-10-30 23:55:31.423
+!MESSAGE An internal error occurred during: "AutoRegisterSchemeHandlersJob".
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Users\박소현\AppData\Local\Temp\jna--2033671817\jna10933446246860259981.dll: Can't find dependent libraries
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:383)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:227)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:169)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2383)
+	at java.base/java.lang.Runtime.load0(Runtime.java:746)
+	at java.base/java.lang.System.load(System.java:1857)
+	at com.sun.jna.Native.loadNativeDispatchLibraryFromClasspath(Native.java:1019)
+	at com.sun.jna.Native.loadNativeDispatchLibrary(Native.java:989)
+	at com.sun.jna.Native.<clinit>(Native.java:195)
+	at com.sun.jna.platform.win32.WinReg$HKEYByReference.<init>(WinReg.java:52)
+	at com.sun.jna.platform.win32.WinReg$HKEYByReference.<init>(WinReg.java:48)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:736)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:717)
+	at org.eclipse.urischeme.internal.registration.WinRegistry.getValueForKey(WinRegistry.java:44)
+	at org.eclipse.urischeme.internal.registration.RegistryWriter.getRegisteredHandlerPath(RegistryWriter.java:80)
+	at org.eclipse.urischeme.internal.registration.RegistrationWindows.getSchemesInformation(RegistrationWindows.java:89)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
