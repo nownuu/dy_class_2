@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package dy0927;
 
 import java.util.Scanner;
@@ -24,6 +25,8 @@ public class Exit_01 {
 	}
 }
 =======
+=======
+>>>>>>> 4cadebe65fc06f8649df3cde03fe05c0c94be29d
 package dy0927;
 
 import java.util.Scanner;
@@ -48,4 +51,7 @@ public class Exit_01 {
 		scan.close();
 	}
 }
+<<<<<<< HEAD
+>>>>>>> 4cadebe65fc06f8649df3cde03fe05c0c94be29d
+=======
 >>>>>>> 4cadebe65fc06f8649df3cde03fe05c0c94be29d

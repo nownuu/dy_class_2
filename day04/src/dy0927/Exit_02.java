@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package dy0927;
 
 import java.util.Scanner;
@@ -23,6 +24,8 @@ public class Exit_02 {
 	}
 }
 =======
+=======
+>>>>>>> 4cadebe65fc06f8649df3cde03fe05c0c94be29d
 package dy0927;
 
 import java.util.Scanner;
@@ -46,4 +49,7 @@ public class Exit_02 {
 		System.out.println("합계 = "+sum+" 평균 = "+(double)sum/nCount+" 개수 = "+nCount);
 	}
 }
+<<<<<<< HEAD
+>>>>>>> 4cadebe65fc06f8649df3cde03fe05c0c94be29d
+=======
 >>>>>>> 4cadebe65fc06f8649df3cde03fe05c0c94be29d
