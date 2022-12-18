@@ -9,6 +9,7 @@ public class CharacterEx {
 		char c1 = '4';
 		char c2 = 'F';
 		// static boolean >> isAlphabetic
+		
 		System.out.println(Character.isAlphabetic(c1));
 		System.out.println(Character.isAlphabetic(c2));
 		
